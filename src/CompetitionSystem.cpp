@@ -215,15 +215,8 @@ void BaseSystem::saveResults(const string &fileName, int screen) const {
     js["teamSize"] = num_of_agents;
 
     js["numTaskFinished"] = task_manager.num_of_task_finish;
-    int makespan = 0;
-    if (num_of_agents > 0) {
-        makespan = solution_costs[0];
-        for (int a = 1; a < num_of_agents; a++) {
-            if (solution_costs[a] > makespan) {
-                makespan = solution_costs[a];
-            }
-        }
-    }
+    // Use executed simulation horizon so visualization can replay full paths.
+    int makespan = simulator.get_curr_timestep();
     js["makespan"] = makespan;
 
     js["numPlannerErrors"] = simulator.get_number_errors();

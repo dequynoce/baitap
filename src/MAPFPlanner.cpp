@@ -61,8 +61,8 @@ void MAPFPlanner::plan(int time_limit, vector<Action> &actions) {
 #ifdef ENABLE_DEFAULT_SCHEDULER_TRICK
     {
         for (uint32_t r = 0; r < get_robots_handler().size(); r++) {
-            uint32_t t = env->curr_task_schedule[r];
-            if (t != -1) {
+            int t = env->curr_task_schedule[r];
+            if (t >= 0 && env->task_pool.count(t)) {
                 env->task_pool.at(t).agent_assigned = r;
             }
         }

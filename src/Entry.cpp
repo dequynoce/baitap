@@ -5,6 +5,7 @@
 
 #include <Objects/Basic/time.hpp>
 #include <Objects/Environment/environment.hpp>
+#include <unordered_set>
 
 // The initialize function will be called by competition system at the preprocessing stage.
 // Implement the initialize functions of the planner and scheduler to load or compute auxiliary data.
@@ -34,11 +35,41 @@ void Entry::compute(int time_limit, std::vector<Action> &plan, std::vector<int> 
     //call the task scheduler to assign tasks to agents
     scheduler->plan(time_limit, proposed_schedule);
 
+    // Keep schedule size consistent with team size before post-processing.
+    if (proposed_schedule.size() < static_cast<size_t>(env->num_of_agents)) {
+        proposed_schedule.resize(env->num_of_agents, -1);
+    }
+
     // During cooldown, suppress new assignments so agents stay idle from tasks.
     if (!env->agent_cooldown_steps.empty()) {
         for (size_t i = 0; i < proposed_schedule.size() && i < env->agent_cooldown_steps.size(); i++) {
             if (env->agent_cooldown_steps[i] > 0) {
                 proposed_schedule[i] = -1;
+            }
+        }
+
+        // If cooldown ended but scheduler still leaves a free agent idle, greedily pick a free task.
+        std::unordered_set<int> used_tasks;
+        for (int t_id: proposed_schedule) {
+            if (t_id >= 0) {
+                used_tasks.insert(t_id);
+            }
+        }
+        for (size_t i = 0; i < proposed_schedule.size() && i < env->agent_cooldown_steps.size(); i++) {
+            if (env->agent_cooldown_steps[i] != 0 || proposed_schedule[i] != -1) {
+                continue;
+            }
+            for (const auto &task_entry: env->task_pool) {
+                int t_id = task_entry.first;
+                const Task &task = task_entry.second;
+                if (used_tasks.count(t_id)) {
+                    continue;
+                }
+                if (task.agent_assigned == -1 && task.idx_next_loc == 0) {
+                    proposed_schedule[i] = t_id;
+                    used_tasks.insert(t_id);
+                    break;
+                }
             }
         }
     }
@@ -57,11 +88,16 @@ void Entry::compute(int time_limit, std::vector<Action> &plan, std::vector<int> 
     //call the planner to compute the actions
     planner->plan(time_limit, plan);
 
-    // During cooldown, force in-place spin (alternate CW/CCW each timestep).
+    // Keep action size consistent with team size before post-processing.
+    if (plan.size() < static_cast<size_t>(env->num_of_agents)) {
+        plan.resize(env->num_of_agents, Action::W);
+    }
+
+    // During cooldown, force in-place spin in one direction.
     if (!env->agent_cooldown_steps.empty()) {
         for (size_t i = 0; i < plan.size() && i < env->agent_cooldown_steps.size(); i++) {
             if (env->agent_cooldown_steps[i] > 0) {
-                plan[i] = (env->curr_timestep % 2 == 0) ? Action::CR : Action::CCR;
+                plan[i] = Action::CR;
             }
         }
     }
