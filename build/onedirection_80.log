@@ -1,0 +1,172 @@
+[2026-03-23 13:46:44.993401]: *info* [timestep=0] Preprocessing success
+[2026-03-23 13:46:44.994434]: *info* Task 0 is revealed
+[2026-03-23 13:46:44.994472]: *info* Task 1 is revealed
+[2026-03-23 13:46:44.994484]: *info* Task 2 is revealed
+[2026-03-23 13:46:44.994493]: *info* Task 3 is revealed
+[2026-03-23 13:46:44.994500]: *info* Task 4 is revealed
+[2026-03-23 13:46:44.994508]: *info* Task 5 is revealed
+[2026-03-23 13:46:44.994515]: *info* Task 6 is revealed
+[2026-03-23 13:46:44.994522]: *info* Task 7 is revealed
+[2026-03-23 13:46:44.994530]: *info* Task 8 is revealed
+[2026-03-23 13:46:44.994537]: *info* Task 9 is revealed
+[2026-03-23 13:46:45.966253]: *info* [timestep=0] planner returns
+[2026-03-23 13:46:46.937912]: *info* [timestep=1] planner returns
+[2026-03-23 13:46:47.909646]: *info* [timestep=2] planner returns
+[2026-03-23 13:46:47.909792]: *info* [timestep=3] Agent 7 finishes task 2
+[2026-03-23 13:46:47.910362]: *info* Task 10 is revealed
+[2026-03-23 13:46:48.881869]: *info* [timestep=3] planner returns
+[2026-03-23 13:46:48.881969]: *info* [timestep=4] Agent 2 finishes task 4
+[2026-03-23 13:46:48.882026]: *info* Task 11 is revealed
+[2026-03-23 13:46:49.853441]: *info* [timestep=4] planner returns
+[2026-03-23 13:46:50.825066]: *info* [timestep=5] planner returns
+[2026-03-23 13:46:51.796650]: *info* [timestep=6] planner returns
+[2026-03-23 13:46:51.796796]: *info* [timestep=7] Agent 6 finishes task 6
+[2026-03-23 13:46:51.796876]: *info* Task 12 is revealed
+[2026-03-23 13:46:52.768438]: *info* [timestep=7] planner returns
+[2026-03-23 13:46:52.768578]: *info* [timestep=8] Agent 8 finishes task 1
+[2026-03-23 13:46:52.768650]: *info* Task 13 is revealed
+[2026-03-23 13:46:53.740104]: *info* [timestep=8] planner returns
+[2026-03-23 13:46:54.711737]: *info* [timestep=9] planner returns
+[2026-03-23 13:46:54.711841]: *info* [timestep=10] Agent 8 finishes task 11
+[2026-03-23 13:46:54.711904]: *info* Task 14 is revealed
+[2026-03-23 13:46:55.683470]: *info* [timestep=10] planner returns
+[2026-03-23 13:46:55.683573]: *info* [timestep=11] Agent 2 finishes task 14
+[2026-03-23 13:46:55.683632]: *info* [timestep=11] Agent 3 finishes task 5
+[2026-03-23 13:46:55.683657]: *info* [timestep=11] Agent 4 finishes task 8
+[2026-03-23 13:46:55.683678]: *info* [timestep=11] Agent 7 finishes task 12
+[2026-03-23 13:46:55.683719]: *info* Task 15 is revealed
+[2026-03-23 13:46:55.683730]: *info* Task 16 is revealed
+[2026-03-23 13:46:55.683738]: *info* Task 17 is revealed
+[2026-03-23 13:46:55.683746]: *info* Task 18 is revealed
+[2026-03-23 13:46:56.655196]: *info* [timestep=11] planner returns
+[2026-03-23 13:46:57.626816]: *info* [timestep=12] planner returns
+[2026-03-23 13:46:58.598507]: *info* [timestep=13] planner returns
+[2026-03-23 13:46:58.598615]: *info* [timestep=14] Agent 6 finishes task 16
+[2026-03-23 13:46:58.598670]: *info* Task 19 is revealed
+[2026-03-23 13:46:59.570105]: *info* [timestep=14] planner returns
+[2026-03-23 13:47:00.541602]: *info* [timestep=15] planner returns
+[2026-03-23 13:47:01.513115]: *info* [timestep=16] planner returns
+[2026-03-23 13:47:01.513219]: *info* [timestep=17] Agent 3 finishes task 15
+[2026-03-23 13:47:01.513271]: *info* [timestep=17] Agent 5 finishes task 9
+[2026-03-23 13:47:01.513297]: *info* Task 20 is revealed
+[2026-03-23 13:47:01.513308]: *info* Task 21 is revealed
+[2026-03-23 13:47:02.484750]: *info* [timestep=17] planner returns
+[2026-03-23 13:47:03.456675]: *info* [timestep=18] planner returns
+[2026-03-23 13:47:04.428232]: *info* [timestep=19] planner returns
+[2026-03-23 13:47:04.428329]: *info* [timestep=20] Agent 0 finishes task 3
+[2026-03-23 13:47:04.428378]: *info* [timestep=20] Agent 4 finishes task 18
+[2026-03-23 13:47:04.428406]: *info* Task 22 is revealed
+[2026-03-23 13:47:04.428418]: *info* Task 23 is revealed
+[2026-03-23 13:47:05.399787]: *info* [timestep=20] planner returns
+[2026-03-23 13:47:06.371365]: *info* [timestep=21] planner returns
+[2026-03-23 13:47:06.371477]: *info* [timestep=22] Agent 8 finishes task 21
+[2026-03-23 13:47:06.371535]: *info* Task 24 is revealed
+[2026-03-23 13:47:07.342976]: *info* [timestep=22] planner returns
+[2026-03-23 13:47:08.314491]: *info* [timestep=23] planner returns
+[2026-03-23 13:47:08.314588]: *info* [timestep=24] Agent 0 finishes task 13
+[2026-03-23 13:47:08.314705]: *info* [timestep=24] Agent 7 finishes task 22
+[2026-03-23 13:47:08.314757]: *info* Task 25 is revealed
+[2026-03-23 13:47:08.314769]: *info* Task 26 is revealed
+[2026-03-23 13:47:09.286385]: *info* [timestep=24] planner returns
+[2026-03-23 13:47:10.258170]: *info* [timestep=25] planner returns
+[2026-03-23 13:47:10.258259]: *info* [timestep=26] Agent 2 finishes task 24
+[2026-03-23 13:47:10.258312]: *info* Task 27 is revealed
+[2026-03-23 13:47:11.229712]: *info* [timestep=26] planner returns
+[2026-03-23 13:47:11.229810]: *info* [timestep=27] Agent 5 finishes task 19
+[2026-03-23 13:47:11.229865]: *info* Task 28 is revealed
+[2026-03-23 13:47:12.201317]: *info* [timestep=27] planner returns
+[2026-03-23 13:47:13.172702]: *info* [timestep=28] planner returns
+[2026-03-23 13:47:14.144173]: *info* [timestep=29] planner returns
+[2026-03-23 13:47:15.115626]: *info* [timestep=30] planner returns
+[2026-03-23 13:47:15.115735]: *info* [timestep=31] Agent 6 finishes task 26
+[2026-03-23 13:47:15.115791]: *info* Task 29 is revealed
+[2026-03-23 13:47:16.087116]: *info* [timestep=31] planner returns
+[2026-03-23 13:47:17.058925]: *info* [timestep=32] planner returns
+[2026-03-23 13:47:17.059033]: *info* [timestep=33] Agent 3 finishes task 25
+[2026-03-23 13:47:17.059106]: *info* Task 30 is revealed
+[2026-03-23 13:47:18.030622]: *info* [timestep=33] planner returns
+[2026-03-23 13:47:19.002110]: *info* [timestep=34] planner returns
+[2026-03-23 13:47:19.002202]: *info* [timestep=35] Agent 9 finishes task 7
+[2026-03-23 13:47:19.002260]: *info* Task 31 is revealed
+[2026-03-23 13:47:19.973705]: *info* [timestep=35] planner returns
+[2026-03-23 13:47:19.973793]: *info* [timestep=36] Agent 1 finishes task 0
+[2026-03-23 13:47:19.973841]: *info* Task 32 is revealed
+[2026-03-23 13:47:20.945701]: *info* [timestep=36] planner returns
+[2026-03-23 13:47:20.945845]: *info* [timestep=37] Agent 1 finishes task 10
+[2026-03-23 13:47:20.945904]: *info* Task 33 is revealed
+[2026-03-23 13:47:21.917266]: *info* [timestep=37] planner returns
+[2026-03-23 13:47:21.917383]: *info* [timestep=38] Agent 0 finishes task 23
+[2026-03-23 13:47:21.917461]: *info* Task 34 is revealed
+[2026-03-23 13:47:22.889035]: *info* [timestep=38] planner returns
+[2026-03-23 13:47:22.889162]: *info* [timestep=39] Agent 4 finishes task 28
+[2026-03-23 13:47:22.889222]: *info* Task 35 is revealed
+[2026-03-23 13:47:23.860589]: *info* [timestep=39] planner returns
+[2026-03-23 13:47:24.832201]: *info* [timestep=40] planner returns
+[2026-03-23 13:47:25.803717]: *info* [timestep=41] planner returns
+[2026-03-23 13:47:26.775301]: *info* [timestep=42] planner returns
+[2026-03-23 13:47:26.775394]: *info* [timestep=43] Agent 9 finishes task 17
+[2026-03-23 13:47:26.775441]: *info* Task 36 is revealed
+[2026-03-23 13:47:27.746863]: *info* [timestep=43] planner returns
+[2026-03-23 13:47:27.746953]: *info* [timestep=44] Agent 8 finishes task 31
+[2026-03-23 13:47:27.747024]: *info* Task 37 is revealed
+[2026-03-23 13:47:28.718346]: *info* [timestep=44] planner returns
+[2026-03-23 13:47:29.690032]: *info* [timestep=45] planner returns
+[2026-03-23 13:47:30.661526]: *info* [timestep=46] planner returns
+[2026-03-23 13:47:30.661624]: *info* [timestep=47] Agent 5 finishes task 29
+[2026-03-23 13:47:30.661672]: *info* [timestep=47] Agent 7 finishes task 32
+[2026-03-23 13:47:30.661702]: *info* Task 38 is revealed
+[2026-03-23 13:47:30.661714]: *info* Task 39 is revealed
+[2026-03-23 13:47:31.633270]: *info* [timestep=47] planner returns
+[2026-03-23 13:47:31.633403]: *info* [timestep=48] Agent 1 finishes task 20
+[2026-03-23 13:47:31.633483]: *info* Task 40 is revealed
+[2026-03-23 13:47:32.604785]: *info* [timestep=48] planner returns
+[2026-03-23 13:47:33.576199]: *info* [timestep=49] planner returns
+[2026-03-23 13:47:34.547557]: *info* [timestep=50] planner returns
+[2026-03-23 13:47:34.547668]: *info* [timestep=51] Agent 2 finishes task 34
+[2026-03-23 13:47:34.547784]: *info* Task 41 is revealed
+[2026-03-23 13:47:35.519309]: *info* [timestep=51] planner returns
+[2026-03-23 13:47:36.490799]: *info* [timestep=52] planner returns
+[2026-03-23 13:47:37.462252]: *info* [timestep=53] planner returns
+[2026-03-23 13:47:38.433915]: *info* [timestep=54] planner returns
+[2026-03-23 13:47:39.405697]: *info* [timestep=55] planner returns
+[2026-03-23 13:47:40.381018]: *info* [timestep=56] planner returns
+[2026-03-23 13:47:41.352538]: *info* [timestep=57] planner returns
+[2026-03-23 13:47:41.352647]: *info* [timestep=58] Agent 6 finishes task 36
+[2026-03-23 13:47:41.352707]: *info* Task 42 is revealed
+[2026-03-23 13:47:42.324226]: *info* [timestep=58] planner returns
+[2026-03-23 13:47:42.324315]: *info* [timestep=59] Agent 3 finishes task 35
+[2026-03-23 13:47:42.324369]: *info* Task 43 is revealed
+[2026-03-23 13:47:43.296546]: *info* [timestep=59] planner returns
+[2026-03-23 13:47:44.268065]: *info* [timestep=60] planner returns
+[2026-03-23 13:47:44.268163]: *info* [timestep=61] Agent 9 finishes task 27
+[2026-03-23 13:47:44.268219]: *info* Task 44 is revealed
+[2026-03-23 13:47:45.239560]: *info* [timestep=61] planner returns
+[2026-03-23 13:47:45.239651]: *info* [timestep=62] Agent 0 finishes task 33
+[2026-03-23 13:47:45.239708]: *info* Task 45 is revealed
+[2026-03-23 13:47:46.211434]: *info* [timestep=62] planner returns
+[2026-03-23 13:47:47.186615]: *info* [timestep=63] planner returns
+[2026-03-23 13:47:48.158305]: *info* [timestep=64] planner returns
+[2026-03-23 13:47:49.137692]: *info* [timestep=65] planner returns
+[2026-03-23 13:47:50.110542]: *info* [timestep=66] planner returns
+[2026-03-23 13:47:51.082326]: *info* [timestep=67] planner returns
+[2026-03-23 13:47:51.082489]: *info* [timestep=68] Agent 4 finishes task 38
+[2026-03-23 13:47:51.082590]: *info* Task 46 is revealed
+[2026-03-23 13:47:52.054332]: *info* [timestep=68] planner returns
+[2026-03-23 13:47:52.054533]: *info* [timestep=69] Agent 1 finishes task 30
+[2026-03-23 13:47:52.054612]: *info* Task 47 is revealed
+[2026-03-23 13:47:53.026746]: *info* [timestep=69] planner returns
+[2026-03-23 13:47:54.003894]: *info* [timestep=70] planner returns
+[2026-03-23 13:47:54.984004]: *info* [timestep=71] planner returns
+[2026-03-23 13:47:55.957550]: *info* [timestep=72] planner returns
+[2026-03-23 13:47:56.929578]: *info* [timestep=73] planner returns
+[2026-03-23 13:47:57.901396]: *info* [timestep=74] planner returns
+[2026-03-23 13:47:58.875306]: *info* [timestep=75] planner returns
+[2026-03-23 13:47:58.875436]: *info* [timestep=76] Agent 8 finishes task 41
+[2026-03-23 13:47:58.875507]: *info* Task 48 is revealed
+[2026-03-23 13:47:59.846904]: *info* [timestep=76] planner returns
+[2026-03-23 13:47:59.847002]: *info* [timestep=77] Agent 5 finishes task 39
+[2026-03-23 13:47:59.847054]: *info* Task 49 is revealed
+[2026-03-23 13:48:00.818643]: *info* [timestep=77] planner returns
+[2026-03-23 13:48:01.790083]: *info* [timestep=78] planner returns
+[2026-03-23 13:48:02.761459]: *info* [timestep=79] planner returns
+[2026-03-23 13:48:02.761551]: *info* [timestep=80] Agent 7 finishes task 42
