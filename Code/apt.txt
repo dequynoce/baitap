@@ -1,5 +1,0 @@
-cmake
-build-essential
-libboost-all-dev
-python3-pip
-libspdlog-dev
